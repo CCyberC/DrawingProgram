@@ -14,9 +14,10 @@ PFont font;
 int initialFontSize=55;
 int size;
 //
+int appWidth, appHeight;
+//
 void setup() {
-  size(1800, 1400); //fullScreen, displayWidth, displayHeight
-  //fullScreen();
+  fullScreen();
   //
   Population();
   //
@@ -24,6 +25,8 @@ void setup() {
   //
   CANVAS();
   //
+  appWidth = displayWidth;
+  appHeight = displayHeight;
 }//End setup
 //
 void draw() {

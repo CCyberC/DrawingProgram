@@ -17,7 +17,6 @@ color coLNavy=#2F7181;
 color coLWhite=#F0F0F0;
 color coLBlack=#4A3839;
 //
-/*
 void hoverOverExit() {
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
@@ -245,4 +244,3 @@ void hOEBlack() {
   }
 }//End Exit HoverOver
 //
-*/
