@@ -23,8 +23,6 @@ void setup() {
   //
   CANVAS();
   //
-  displayOrientation();
-  //
 }//End setup
 //
 void draw() {
