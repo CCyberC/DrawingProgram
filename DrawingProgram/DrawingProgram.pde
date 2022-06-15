@@ -1,5 +1,4 @@
 //Global Variables
-int appWidth, appHeight;
 Boolean marker=false;
 //
 float ExitX, ExitY, ExitWidth, ExitHeight;
@@ -20,8 +19,7 @@ void setup() {
   //
   Population();
   //
-  appWidth = displayWidth;
-  appHeight = displayHeight;
+  displayOrientation();
   //
   font = createFont ("Ebrima", initialFontSize);
   //
@@ -35,6 +33,8 @@ void draw() {
   //
   //Drawing Tools
   if ( marker==true && mouseX>=ItLX && mouseX<=ItLX+ItLW && mouseY>=ItLY && mouseY<=ItLY+ItLH ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
+  //
+  nBHO1();
   //
 }//End draw
 //
@@ -53,6 +53,8 @@ void mousePressed() {
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) exit();
   //
   if ( mouseX>=Text2X && mouseX<=Text2X+Text2Width && mouseY>=Text2Y && mouseY<=Text2Y+Text2Height ) canvo=true;
+  //
+  toolsMP();
   //
 }//End mousePressed
 //

@@ -32,8 +32,10 @@ void nBHO1() {
   //Exit HoverOver
   if ( mouseX>=rMX1 && mouseX<=rMX1+rMWidth && mouseY>=rMY1 && mouseY<=rMY1+rMHeight ) {
     nB1Colour = coGrey;
+    toolsBT();
   } else {
     nB1Colour = white;
+    toolsBT();
   }
 }//End Exit HoverOver
 //
