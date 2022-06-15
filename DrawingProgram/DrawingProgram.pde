@@ -1,4 +1,5 @@
 //Global Variables
+int appWidth, appHeight;
 Boolean marker=false;
 //
 float ExitX, ExitY, ExitWidth, ExitHeight;
@@ -18,6 +19,9 @@ void setup() {
   fullScreen();
   //
   Population();
+  //
+  appWidth = displayWidth;
+  appHeight = displayHeight;
   //
   font = createFont ("Ebrima", initialFontSize);
   //
