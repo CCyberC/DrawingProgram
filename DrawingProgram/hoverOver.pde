@@ -21,10 +21,10 @@ void hoverOverExit() {
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
     ExitColour = red;
-    rect(ExitX, ExitY, ExitWidth, ExitHeight);
+    
   } else {
     ExitColour = black;
-    rect(ExitX, ExitY, ExitWidth, ExitHeight);
+    
   }
 }//End Exit HoverOver
 //
