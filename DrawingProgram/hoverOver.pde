@@ -130,19 +130,6 @@ void nBHO2() {
   }
 }//End Exit HoverOver
 //
-void nBHO3() {
-  //Exit HoverOver
-  if ( mouseX>=rMX19 && mouseX<=rMX19+rMWidth && mouseY>=rMY19 && mouseY<=rMY19+rMHeight ) {
-    //nB3Colour = coGrey;
-    fill(coGrey);
-    
-  } else {
-    //nB3Colour = white;
-    fill(white);
-    
-  }
-}//End Exit HoverOver
-//
 void nBHO4() {
   //Exit HoverOver
   if ( mouseX>=rMX28 && mouseX<=rMX28+rMWidth && mouseY>=rMY28 && mouseY<=rMY28+rMHeight ) {
