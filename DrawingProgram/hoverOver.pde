@@ -17,24 +17,102 @@ color coLNavy=#2F7181;
 color coLWhite=#F0F0F0;
 color coLBlack=#4A3839;
 //
+void hoverOver() {
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    fill(red);
+    
+  } else {
+    fill(black);
+  }
+  //
+  if ( mouseX>=rMX1 && mouseX<=rMX1+rMWidth && mouseY>=rMY1 && mouseY<=rMY1+rMHeight ) {
+    //nB1Colour = coGrey;
+    fill(coGrey);
+    toolsBT();
+  } else {
+    //nB1Colour = white;
+    fill(white);
+  }
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  
+  //
+  if ( mouseX>=rMX53 && mouseX<=rMX53+r4Width && mouseY>=rMY53 && mouseY<=rMY53+r3Height ) {
+    GreyColour = coLGrey;
+  } else {
+    GreyColour = coGrey;
+  }
+  //
+  if ( mouseX>=rMX54 && mouseX<=rMX54+r4Width && mouseY>=rMY54 && mouseY<=rMY54+r3Height ) {
+    NavyColour = coLNavy;
+  } else {
+    NavyColour = coNavy;
+  }
+  //
+  if ( mouseX>=rMX55 && mouseX<=rMX55+r4Width && mouseY>=rMY55 && mouseY<=rMY55+r3Height ) {
+    WhiteColour = coLWhite;
+  } else {
+    WhiteColour = coWhite;
+  }
+  //
+  if ( mouseX>=rMX56 && mouseX<=rMX56+r4Width && mouseY>=rMY56 && mouseY<=rMY56+r3Height ) {
+    BlackColour = coLBlack;
+  } else {
+    BlackColour = coBlack;
+  }
+  //
+}//End hoverOver
 void hoverOverExit() {
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
-    ExitColour = red;
-    
+    //ExitColour = red;
+    fill(red);
   } else {
-    ExitColour = black;
-    
+    //ExitColour = black;
+    fill(black);
   }
 }//End Exit HoverOver
 //
 void nBHO1() {
   //Exit HoverOver
   if ( mouseX>=rMX1 && mouseX<=rMX1+rMWidth && mouseY>=rMY1 && mouseY<=rMY1+rMHeight ) {
-    nB1Colour = coGrey;
+    //nB1Colour = coGrey;
+    fill(coGrey);
     toolsBT();
   } else {
-    nB1Colour = white;
+    //nB1Colour = white;
+    fill(white);
     toolsBT();
   }
 }//End Exit HoverOver
@@ -42,45 +120,65 @@ void nBHO1() {
 void nBHO2() {
   //Exit HoverOver
   if ( mouseX>=rMX14 && mouseX<=rMX14+rMWidth && mouseY>=rMY14 && mouseY<=rMY14+rMHeight ) {
-    nB2Colour = coGrey;
+    //nB2Colour = coGrey;
+    fill(coGrey);
+    
   } else {
-    nB2Colour = white;
+    //nB2Colour = white;
+    fill(white);
+    
   }
 }//End Exit HoverOver
 //
 void nBHO3() {
   //Exit HoverOver
   if ( mouseX>=rMX19 && mouseX<=rMX19+rMWidth && mouseY>=rMY19 && mouseY<=rMY19+rMHeight ) {
-    nB3Colour = coGrey;
+    //nB3Colour = coGrey;
+    fill(coGrey);
+    
   } else {
-    nB3Colour = white;
+    //nB3Colour = white;
+    fill(white);
+    
   }
 }//End Exit HoverOver
 //
 void nBHO4() {
   //Exit HoverOver
   if ( mouseX>=rMX28 && mouseX<=rMX28+rMWidth && mouseY>=rMY28 && mouseY<=rMY28+rMHeight ) {
-    nB4Colour = coGrey;
+    //nB4Colour = coGrey;
+    fill(coGrey);
+    
   } else {
-    nB4Colour = white;
+    //nB4Colour = white;
+    fill(white);
+    
   }
 }//End Exit HoverOver
 //
 void nBHO5() {
   //Exit HoverOver
   if ( mouseX>=rMX33 && mouseX<=rMX33+rMWidth && mouseY>=rMY33 && mouseY<=rMY33+rMHeight ) {
-    nB5Colour = coGrey;
+    //nB5Colour = coGrey;
+    fill(coGrey);
+    
   } else {
-    nB5Colour = white;
+    //nB5Colour = white;
+    fill(white);
+    
   }
 }//End Exit HoverOver
 //
 void nBHO6() {
   //Exit HoverOver
   if ( mouseX>=rMX38 && mouseX<=rMX38+rMWidth && mouseY>=rMY38 && mouseY<=rMY38+rMHeight ) {
-    nB6Colour = coGrey;
+    //nB6Colour = coGrey;
+    fill(coGrey);
+    
   } else {
-    nB6Colour = white;
+    //nB6Colour = white;
+    fill(white);
+    
   }
 }//End Exit HoverOver
 //
@@ -207,42 +305,6 @@ void hOEDarkBrown() {
     DBrownColour = coLDarkBrown;
   } else {
     DBrownColour = coDarkBrown;
-  }
-}//End Exit HoverOver
-//
-void hOEGrey() {
-  //Exit HoverOver
-  if ( mouseX>=rMX53 && mouseX<=rMX53+r4Width && mouseY>=rMY53 && mouseY<=rMY53+r3Height ) {
-    GreyColour = coLGrey;
-  } else {
-    GreyColour = coGrey;
-  }
-}//End Exit HoverOver
-//
-void hOENavy() {
-  //Exit HoverOver
-  if ( mouseX>=rMX54 && mouseX<=rMX54+r4Width && mouseY>=rMY54 && mouseY<=rMY54+r3Height ) {
-    NavyColour = coLNavy;
-  } else {
-    NavyColour = coNavy;
-  }
-}//End Exit HoverOver
-//
-void hOEWhite() {
-  //Exit HoverOver
-  if ( mouseX>=rMX55 && mouseX<=rMX55+r4Width && mouseY>=rMY55 && mouseY<=rMY55+r3Height ) {
-    WhiteColour = coLWhite;
-  } else {
-    WhiteColour = coWhite;
-  }
-}//End Exit HoverOver
-//
-void hOEBlack() {
-  //Exit HoverOver
-  if ( mouseX>=rMX56 && mouseX<=rMX56+r4Width && mouseY>=rMY56 && mouseY<=rMY56+r3Height ) {
-    BlackColour = coLBlack;
-  } else {
-    BlackColour = coBlack;
   }
 }//End Exit HoverOver
 //

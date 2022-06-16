@@ -17,12 +17,12 @@ void toolsButton() {
 */
 void toolsBT() {
   rect(rMX1, rMY1, rMWidth, rMHeight);
-  fill(nB1Colour);
+  fill(black);
   textAlign(CENTER, CENTER);
   size = 11;
   textFont(font, size);
   text(Tools, rMX1, rMY1, rMWidth, rMHeight);
-  fill(black);
+  fill(white);//this is the colour of the thing you are drawing?
 }//End toolsBT
 //
 void toolsMP() {
@@ -36,33 +36,3 @@ void toolsMP() {
   }
 }//End toolsMP
 //
-void LetterText() {
-  rect(buttonX[1], buttonY[1], buttonWidth[1], buttonHeight);
-  fill(grey);
-  textAlign(CENTER, CENTER);
-  textFont(npFont, 50);
-  text(NextPage, buttonX[1], buttonY[1], buttonWidth[1], buttonHeight);
-  fill(resetWhite);
-}//End NewsReportText
-//
-/*
-void NewsReportmP() {
-  if (mouseX>=buttonX[4] && mouseX<=buttonX[4]+buttonWidth[4] && mouseY>=buttonY[4] && mouseY<=buttonY[4]+buttonHeight[4]) {
-    println("BTN 4 Activated");
-    if (DiaryEntry1==true) { //Button will turn On and Off
-      DiaryEntry1=false;
-    } else {
-      DiaryEntry1=true;
-    }
-  }
-}//End NewsReportmP
-//
-void NewsReportText() {
-  rect(buttonX[4], buttonY[4], buttonWidth[4], buttonHeight[4]);
-  fill(grey);
-  textAlign(CENTER, CENTER);
-  textFont(npFont, 50);
-  text(NextPage, buttonX[4], buttonY[4], buttonWidth[4], buttonHeight[4]);
-  fill(black);
-}//End NewsReportText
-*/

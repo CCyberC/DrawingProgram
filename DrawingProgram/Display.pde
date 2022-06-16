@@ -15,8 +15,6 @@ void displayOrientation() {
     println("Good to Go");
   } else { //Break our app if not landscape
     println(instruct);
-    appWidth*=0; //appWidth = appWidth*0
-    appHeight*=0;
   } 
   println("App Geometry is:", "\tApp Width:", appWidth, "\t\tApp Height:", appHeight);
 }//End displayOrientation
