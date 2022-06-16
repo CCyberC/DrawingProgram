@@ -2,18 +2,6 @@ float ItLX, ItLY, ItLW, ItLH;
 //
 float rMWidth, rMHeight, r2Width, r2Height, r3Width, r3Height, r4Width;
 //
-float rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX7, rMX8, rMX9, rMX10, rMX11, rMX12;
-float rMX13, rMX14, rMX15, rMX16, rMX17, rMX18, rMX19, rMX20, rMX21, rMX22, rMX23, rMX24;
-float rMX25, rMX26, rMX27, rMX28, rMX29, rMX30, rMX31, rMX32, rMX33, rMX34, rMX35, rMX36;
-float rMX37, rMX38, rMX39, rMX40, rMX41, rMX42, rMX43, rMX44, rMX45, rMX46, rMX47, rMX48;
-float rMX49, rMX50, rMX51, rMX52, rMX53, rMX54, rMX55, rMX56;
-//
-float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY7, rMY8, rMY9, rMY10, rMY11, rMY12;
-float rMY13, rMY14, rMY15, rMY16, rMY17, rMY18, rMY19, rMY20, rMY21, rMY22, rMY23, rMY24;
-float rMY25, rMY26, rMY27, rMY28, rMY29, rMY30, rMY31, rMY32, rMY33, rMY34, rMY35, rMY36;
-float rMY37, rMY38, rMY39, rMY40, rMY41, rMY42, rMY43, rMY44, rMY45, rMY46, rMY47, rMY48;
-float rMY49, rMY50, rMY51, rMY52, rMY53, rMY54, rMY55, rMY56;
-//
 void Population() {
   canvasX = displayWidth*(1.0/2.0); //displayWidth
   canvasY = displayHeight*(1.0/4.0); //displayHeight
@@ -27,7 +15,7 @@ void Population() {
   ItLH = canvasHeight-(displayHeight*(1.0/60.0));
   //
   ExitX = displayWidth*(9.0/10.0);
-  ExitY = displayHeight*0.0;
+  ExitY = displayHeight*(0.0/0.0);
   ExitWidth = displayWidth*(1.0/10.0);
   ExitHeight = displayHeight*(1.0/20.0);
   //
